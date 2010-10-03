@@ -1,5 +1,8 @@
+cdef extern from "Python.h":
+    ctypedef unsigned short Py_UNICODE
+
 cdef extern from "JavaScriptCore/JSStringRef.h":
-    ctypedef unsigned short JSChar
+    ctypedef Py_UNICODE JSChar
     void JSStringRelease(JSStringRef string)
     JSStringRef JSStringCreateWithUTF8CString(char* string)
     JSStringRef JSStringCreateWithCharacters(JSChar* chars, size_t numChars)
