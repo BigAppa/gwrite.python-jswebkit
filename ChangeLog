@@ -1,3 +1,8 @@
+2010-10-03 Jiahug Huang <jhuangjiahua@gmail.com>
+
+	* Fix build error with cython 0.13
+	* Release python-jswebkit-0.0.3
+
 2010-04-15 Aron Xu <happyaron.xu@gmail.com> 
 
 	* Release python-jswebkit-0.0.2
