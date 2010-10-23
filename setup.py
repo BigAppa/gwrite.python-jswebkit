@@ -39,7 +39,7 @@ extra_link_args = pkgconfig.stdout.read().split()
 
 setup(
     name='python-jswebkit',
-    version='0.0.2',
+    version='0.0.4',
     description='WebKit/JavaScriptCore Python bindings',
     long_description ="""It's a cython wrapper for JSContextRef in pywebkitgtk
  that way it can call JS functions etc""",
